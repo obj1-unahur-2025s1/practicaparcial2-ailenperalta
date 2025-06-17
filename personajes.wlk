@@ -15,7 +15,7 @@ class Personaje {
 
 // SUBCLASES
 class Orco inherits Personaje {
-    override method potencialOfensivo() = if (rol == brujo) super() * 0.1 else super()
+    override method potencialOfensivo() = if (rol == brujo) super() * 1.1 else super()
 
     override method esInteligente() = false 
 }
